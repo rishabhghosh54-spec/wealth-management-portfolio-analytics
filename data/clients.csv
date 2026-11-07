@@ -1,0 +1,121 @@
+client_id,client_name,segment,city
+C001,Simulated Client 001,Emerging Affluent,Pune
+C002,Simulated Client 002,Affluent,Mumbai
+C003,Simulated Client 003,Emerging Affluent,Hyderabad
+C004,Simulated Client 004,Emerging Affluent,Mumbai
+C005,Simulated Client 005,Affluent,Pune
+C006,Simulated Client 006,Emerging Affluent,Bengaluru
+C007,Simulated Client 007,Emerging Affluent,Pune
+C008,Simulated Client 008,Emerging Affluent,Pune
+C009,Simulated Client 009,Emerging Affluent,Bengaluru
+C010,Simulated Client 010,Affluent,Hyderabad
+C011,Simulated Client 011,Emerging Affluent,Hyderabad
+C012,Simulated Client 012,Emerging Affluent,Bengaluru
+C013,Simulated Client 013,Emerging Affluent,Pune
+C014,Simulated Client 014,Emerging Affluent,Bengaluru
+C015,Simulated Client 015,Emerging Affluent,Bengaluru
+C016,Simulated Client 016,High Net Worth,Mumbai
+C017,Simulated Client 017,Emerging Affluent,Hyderabad
+C018,Simulated Client 018,Affluent,Bengaluru
+C019,Simulated Client 019,Emerging Affluent,Mumbai
+C020,Simulated Client 020,Emerging Affluent,Bengaluru
+C021,Simulated Client 021,Affluent,Hyderabad
+C022,Simulated Client 022,Emerging Affluent,Pune
+C023,Simulated Client 023,Emerging Affluent,Hyderabad
+C024,Simulated Client 024,Affluent,Bengaluru
+C025,Simulated Client 025,Emerging Affluent,Bengaluru
+C026,Simulated Client 026,Emerging Affluent,Mumbai
+C027,Simulated Client 027,High Net Worth,Bengaluru
+C028,Simulated Client 028,Emerging Affluent,Bengaluru
+C029,Simulated Client 029,Affluent,Hyderabad
+C030,Simulated Client 030,Emerging Affluent,Mumbai
+C031,Simulated Client 031,Affluent,Mumbai
+C032,Simulated Client 032,Emerging Affluent,Mumbai
+C033,Simulated Client 033,Affluent,Pune
+C034,Simulated Client 034,Emerging Affluent,Pune
+C035,Simulated Client 035,Emerging Affluent,Bengaluru
+C036,Simulated Client 036,Emerging Affluent,Pune
+C037,Simulated Client 037,Affluent,Mumbai
+C038,Simulated Client 038,Affluent,Hyderabad
+C039,Simulated Client 039,Emerging Affluent,Hyderabad
+C040,Simulated Client 040,Emerging Affluent,Bengaluru
+C041,Simulated Client 041,Affluent,Mumbai
+C042,Simulated Client 042,Emerging Affluent,Mumbai
+C043,Simulated Client 043,Affluent,Pune
+C044,Simulated Client 044,Emerging Affluent,Bengaluru
+C045,Simulated Client 045,Emerging Affluent,Pune
+C046,Simulated Client 046,Affluent,Hyderabad
+C047,Simulated Client 047,Affluent,Hyderabad
+C048,Simulated Client 048,Emerging Affluent,Bengaluru
+C049,Simulated Client 049,Affluent,Bengaluru
+C050,Simulated Client 050,Emerging Affluent,Mumbai
+C051,Simulated Client 051,Affluent,Mumbai
+C052,Simulated Client 052,Emerging Affluent,Pune
+C053,Simulated Client 053,Emerging Affluent,Pune
+C054,Simulated Client 054,Emerging Affluent,Mumbai
+C055,Simulated Client 055,Affluent,Mumbai
+C056,Simulated Client 056,Emerging Affluent,Bengaluru
+C057,Simulated Client 057,Emerging Affluent,Bengaluru
+C058,Simulated Client 058,Affluent,Bengaluru
+C059,Simulated Client 059,Affluent,Hyderabad
+C060,Simulated Client 060,Emerging Affluent,Pune
+C061,Simulated Client 061,Emerging Affluent,Pune
+C062,Simulated Client 062,Affluent,Bengaluru
+C063,Simulated Client 063,Emerging Affluent,Pune
+C064,Simulated Client 064,Affluent,Mumbai
+C065,Simulated Client 065,Affluent,Mumbai
+C066,Simulated Client 066,Emerging Affluent,Hyderabad
+C067,Simulated Client 067,Affluent,Pune
+C068,Simulated Client 068,Affluent,Pune
+C069,Simulated Client 069,Emerging Affluent,Mumbai
+C070,Simulated Client 070,Emerging Affluent,Hyderabad
+C071,Simulated Client 071,Emerging Affluent,Hyderabad
+C072,Simulated Client 072,Emerging Affluent,Hyderabad
+C073,Simulated Client 073,Emerging Affluent,Mumbai
+C074,Simulated Client 074,Emerging Affluent,Pune
+C075,Simulated Client 075,Emerging Affluent,Pune
+C076,Simulated Client 076,Emerging Affluent,Hyderabad
+C077,Simulated Client 077,High Net Worth,Bengaluru
+C078,Simulated Client 078,Affluent,Bengaluru
+C079,Simulated Client 079,Emerging Affluent,Hyderabad
+C080,Simulated Client 080,Affluent,Mumbai
+C081,Simulated Client 081,Affluent,Pune
+C082,Simulated Client 082,Affluent,Hyderabad
+C083,Simulated Client 083,Affluent,Mumbai
+C084,Simulated Client 084,Affluent,Bengaluru
+C085,Simulated Client 085,Affluent,Mumbai
+C086,Simulated Client 086,Emerging Affluent,Bengaluru
+C087,Simulated Client 087,High Net Worth,Hyderabad
+C088,Simulated Client 088,Emerging Affluent,Bengaluru
+C089,Simulated Client 089,Emerging Affluent,Pune
+C090,Simulated Client 090,Affluent,Pune
+C091,Simulated Client 091,Emerging Affluent,Hyderabad
+C092,Simulated Client 092,High Net Worth,Mumbai
+C093,Simulated Client 093,High Net Worth,Pune
+C094,Simulated Client 094,Emerging Affluent,Mumbai
+C095,Simulated Client 095,High Net Worth,Hyderabad
+C096,Simulated Client 096,Emerging Affluent,Bengaluru
+C097,Simulated Client 097,High Net Worth,Hyderabad
+C098,Simulated Client 098,Emerging Affluent,Pune
+C099,Simulated Client 099,Affluent,Bengaluru
+C100,Simulated Client 100,Emerging Affluent,Mumbai
+C101,Simulated Client 101,Affluent,Mumbai
+C102,Simulated Client 102,Emerging Affluent,Bengaluru
+C103,Simulated Client 103,Affluent,Pune
+C104,Simulated Client 104,High Net Worth,Pune
+C105,Simulated Client 105,Affluent,Pune
+C106,Simulated Client 106,Emerging Affluent,Bengaluru
+C107,Simulated Client 107,Affluent,Hyderabad
+C108,Simulated Client 108,Emerging Affluent,Hyderabad
+C109,Simulated Client 109,Emerging Affluent,Bengaluru
+C110,Simulated Client 110,Affluent,Bengaluru
+C111,Simulated Client 111,Affluent,Mumbai
+C112,Simulated Client 112,Emerging Affluent,Bengaluru
+C113,Simulated Client 113,Emerging Affluent,Hyderabad
+C114,Simulated Client 114,Affluent,Bengaluru
+C115,Simulated Client 115,Emerging Affluent,Hyderabad
+C116,Simulated Client 116,Emerging Affluent,Pune
+C117,Simulated Client 117,Affluent,Bengaluru
+C118,Simulated Client 118,Emerging Affluent,Bengaluru
+C119,Simulated Client 119,Affluent,Pune
+C120,Simulated Client 120,Affluent,Pune

@@ -1,0 +1,245 @@
+{
+  "all": {
+    "holdings": 609,
+    "clients": 120,
+    "cost_basis_inr": 11565758.2182,
+    "market_value_inr": 11821876.03,
+    "unrealized_pnl_inr": 256117.81179999982,
+    "return_on_cost": 0.02214448953264215,
+    "average_client_value_inr": 98515.63358333333
+  },
+  "max_row_difference_inr": {
+    "cost": 1e-11,
+    "value": 1e-11,
+    "pnl": 1.3e-11
+  },
+  "groups": {
+    "segment": {
+      "Affluent": {
+        "holdings": 220,
+        "clients": 44,
+        "cost_basis_inr": 5555597.559,
+        "market_value_inr": 5728084.7809999995,
+        "unrealized_pnl_inr": 172487.22199999992,
+        "return_on_cost": 0.03104746522191348,
+        "average_client_value_inr": 130183.74502272728
+      },
+      "Emerging Affluent": {
+        "holdings": 337,
+        "clients": 67,
+        "cost_basis_inr": 2823425.6827000002,
+        "market_value_inr": 2914270.0495,
+        "unrealized_pnl_inr": 90844.36679999996,
+        "return_on_cost": 0.03217522860850612,
+        "average_client_value_inr": 43496.56790298507
+      },
+      "High Net Worth": {
+        "holdings": 52,
+        "clients": 9,
+        "cost_basis_inr": 3186734.9765,
+        "market_value_inr": 3179521.1995,
+        "unrealized_pnl_inr": -7213.777000000066,
+        "return_on_cost": -0.002263689027545986,
+        "average_client_value_inr": 353280.13327777776
+      }
+    },
+    "city": {
+      "Bengaluru": {
+        "holdings": 171,
+        "clients": 35,
+        "cost_basis_inr": 2929653.5107,
+        "market_value_inr": 3006112.3,
+        "unrealized_pnl_inr": 76458.78929999995,
+        "return_on_cost": 0.02609823619781275,
+        "average_client_value_inr": 85888.92285714285
+      },
+      "Hyderabad": {
+        "holdings": 139,
+        "clients": 27,
+        "cost_basis_inr": 3325903.173,
+        "market_value_inr": 3365520.587,
+        "unrealized_pnl_inr": 39617.41399999999,
+        "return_on_cost": 0.011911776121932217,
+        "average_client_value_inr": 124648.91062962962
+      },
+      "Mumbai": {
+        "holdings": 131,
+        "clients": 27,
+        "cost_basis_inr": 2374326.9848,
+        "market_value_inr": 2405857.8285,
+        "unrealized_pnl_inr": 31530.843699999954,
+        "return_on_cost": 0.013279907907316285,
+        "average_client_value_inr": 89105.8455
+      },
+      "Pune": {
+        "holdings": 168,
+        "clients": 31,
+        "cost_basis_inr": 2935874.5497,
+        "market_value_inr": 3044385.3145,
+        "unrealized_pnl_inr": 108510.76479999995,
+        "return_on_cost": 0.036960286607303446,
+        "average_client_value_inr": 98205.97788709677
+      }
+    },
+    "asset_class": {
+      "Bonds": {
+        "holdings": 89,
+        "clients": 77,
+        "cost_basis_inr": 1580756.6861999999,
+        "market_value_inr": 1595501.2959999999,
+        "unrealized_pnl_inr": 14744.609799999947,
+        "return_on_cost": 0.009327564405528274,
+        "average_client_value_inr": 20720.79605194805
+      },
+      "Cash": {
+        "holdings": 50,
+        "clients": 50,
+        "cost_basis_inr": 958601.481,
+        "market_value_inr": 995333.0,
+        "unrealized_pnl_inr": 36731.51900000001,
+        "return_on_cost": 0.038317819999278725,
+        "average_client_value_inr": 19906.66
+      },
+      "ETFs": {
+        "holdings": 103,
+        "clients": 87,
+        "cost_basis_inr": 2684211.4390000002,
+        "market_value_inr": 2724501.932,
+        "unrealized_pnl_inr": 40290.49299999994,
+        "return_on_cost": 0.015010178562911616,
+        "average_client_value_inr": 31316.11416091954
+      },
+      "Equity": {
+        "holdings": 164,
+        "clients": 103,
+        "cost_basis_inr": 4172132.4343,
+        "market_value_inr": 4269761.1790000005,
+        "unrealized_pnl_inr": 97628.74469999998,
+        "return_on_cost": 0.023400202711058027,
+        "average_client_value_inr": 41453.99202912622
+      },
+      "Gold": {
+        "holdings": 43,
+        "clients": 43,
+        "cost_basis_inr": 356814.0317,
+        "market_value_inr": 355213.716,
+        "unrealized_pnl_inr": -1600.3157000000053,
+        "return_on_cost": -0.004485013362214156,
+        "average_client_value_inr": 8260.784093023256
+      },
+      "Mutual Funds": {
+        "holdings": 160,
+        "clients": 98,
+        "cost_basis_inr": 1813242.146,
+        "market_value_inr": 1881564.907,
+        "unrealized_pnl_inr": 68322.76099999995,
+        "return_on_cost": 0.037679888012044895,
+        "average_client_value_inr": 19199.641908163263
+      }
+    }
+  },
+  "status": "Passed independent CSV reconciliation, successful Desktop refresh, both pages rendered, representative unfiltered and combined slicer DAX checks, and final saved-copy reopening. See Verification.txt for scope.",
+  "filtered_example": {
+    "holdings": 59,
+    "clients": 37,
+    "cost_basis_inr": 2172218.5796,
+    "market_value_inr": 2288370.7600000002,
+    "unrealized_pnl_inr": 116152.1804,
+    "return_on_cost": 0.053471681667223686,
+    "average_client_value_inr": 61847.858378378376,
+    "filters": {
+      "segment": "Affluent",
+      "asset_class": "Equity"
+    },
+    "largest_client_share": 0.06752111795030977,
+    "clients_with_gains": 25,
+    "leading_clients": [
+      {
+        "client_id": "C029",
+        "value_inr": 154513.35199999998
+      },
+      {
+        "client_id": "C049",
+        "value_inr": 129845.797
+      },
+      {
+        "client_id": "C120",
+        "value_inr": 121325.698
+      },
+      {
+        "client_id": "C103",
+        "value_inr": 111313.26400000001
+      },
+      {
+        "client_id": "C047",
+        "value_inr": 102407.41
+      },
+      {
+        "client_id": "C084",
+        "value_inr": 99212.046
+      },
+      {
+        "client_id": "C021",
+        "value_inr": 96647.895
+      },
+      {
+        "client_id": "C041",
+        "value_inr": 94379.718
+      },
+      {
+        "client_id": "C038",
+        "value_inr": 93364.02
+      },
+      {
+        "client_id": "C090",
+        "value_inr": 84774.74200000001
+      }
+    ]
+  },
+  "additional_metrics": {
+    "largest_client_share": 0.046325540642638594,
+    "clients_with_gains": 83,
+    "leading_clients": [
+      {
+        "client_id": "C087",
+        "value_inr": 547654.7985
+      },
+      {
+        "client_id": "C097",
+        "value_inr": 447300.236
+      },
+      {
+        "client_id": "C016",
+        "value_inr": 441957.616
+      },
+      {
+        "client_id": "C095",
+        "value_inr": 426371.144
+      },
+      {
+        "client_id": "C077",
+        "value_inr": 332707.741
+      },
+      {
+        "client_id": "C027",
+        "value_inr": 319726.91699999996
+      },
+      {
+        "client_id": "C093",
+        "value_inr": 284168.175
+      },
+      {
+        "client_id": "C119",
+        "value_inr": 250476.8785
+      },
+      {
+        "client_id": "C104",
+        "value_inr": 243682.52599999998
+      },
+      {
+        "client_id": "C090",
+        "value_inr": 225022.09600000002
+      }
+    ]
+  }
+}

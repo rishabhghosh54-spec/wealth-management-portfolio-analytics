@@ -1,0 +1,92 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.14.0/schema.json",
+  "name": "1fcd320fa7e74cf49408",
+  "position": {
+    "x": 42,
+    "y": 89,
+    "z": 3,
+    "height": 23,
+    "width": 1400,
+    "tabOrder": 3
+  },
+  "visual": {
+    "visualType": "textbox",
+    "drillFilterOtherVisuals": true,
+    "visualContainerObjects": {
+      "background": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "border": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "visualHeader": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ],
+      "subTitle": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "objects": {
+      "general": [
+        {
+          "properties": {
+            "paragraphs": [
+              {
+                "textRuns": [
+                  {
+                    "value": "Synthetic demonstration data  •  INR valuation snapshot  •  Interactive portfolio research",
+                    "textStyle": {
+                      "fontFamily": "Segoe UI",
+                      "fontSize": "11pt",
+                      "color": "#A9BAD0"
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        }
+      ]
+    }
+  }
+}

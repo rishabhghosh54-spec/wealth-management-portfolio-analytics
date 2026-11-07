@@ -1,0 +1,218 @@
+table holdings_enriched
+	lineageTag: 1d883819-4305-4076-aa2a-cc27cc8bf994
+
+	measure 'Total Clients' = DISTINCTCOUNT('holdings_enriched'[client_id])
+		formatString: 0
+		displayFolder: Portfolio Analytics
+		lineageTag: 595d01eb-8950-4d82-969b-d4e0af849a11
+
+	measure 'Total Portfolio Value' = SUM('holdings_enriched'[market_value_inr])
+		formatString: ₹ #,0.00;(₹ #,0.00);₹ 0.00
+		displayFolder: Portfolio Analytics
+		lineageTag: 3b7a5cf0-0054-4cde-9a14-86abc7be1bd0
+
+	measure 'Total Holdings' = COUNTROWS('holdings_enriched')
+		formatString: 0
+		displayFolder: Portfolio Analytics
+		lineageTag: 70974a12-517e-485c-a545-4a82c984e026
+
+	measure 'Unrealized P&L' = SUM('holdings_enriched'[unrealized_pnl_inr])
+		formatString: ₹ #,0.00;(₹ #,0.00);₹ 0.00
+		displayFolder: Portfolio Analytics
+		lineageTag: 5f3f0cd4-fa83-4730-a1ad-53d673836c58
+
+	measure 'Total Cost Basis' = SUM('holdings_enriched'[cost_basis_inr])
+		formatString: ₹ #,0.00;(₹ #,0.00);₹ 0.00
+		displayFolder: Portfolio Analytics
+		lineageTag: 41d24801-6daf-4241-8c38-51e0bb518dac
+
+	measure 'Return on Cost %' = DIVIDE([Unrealized P&L], [Total Cost Basis])
+		formatString: 0.00%;(0.00%);0.00%
+		displayFolder: Portfolio Analytics
+		lineageTag: b9677a6f-3c94-4107-ba4a-3c8900c8cf30
+
+	measure 'Average Client Value' = DIVIDE([Total Portfolio Value], [Total Clients])
+		formatString: ₹ #,0.00;(₹ #,0.00);₹ 0.00
+		displayFolder: Portfolio Analytics
+		lineageTag: a73d511c-18b4-4037-aca2-f5d87e3e9a59
+
+	measure 'Portfolio Value (₹ lakh)' = DIVIDE([Total Portfolio Value], 100000)
+		formatString: 0.00
+		displayFolder: Portfolio Analytics
+		lineageTag: 7bf52b1b-7030-4ae9-8526-010bf5944466
+
+	measure 'Cost Basis (₹ lakh)' = DIVIDE([Total Cost Basis], 100000)
+		formatString: 0.00
+		displayFolder: Portfolio Analytics
+		lineageTag: 8fabc012-afef-42c4-8847-8f21eea715e2
+
+	measure 'Unrealized P&L (₹ lakh)' = DIVIDE([Unrealized P&L], 100000)
+		formatString: +0.00;-0.00;0.00
+		displayFolder: Portfolio Analytics
+		lineageTag: a0df87d3-1590-47e4-8417-3e03a1c0f77b
+
+	measure 'Average Client Value (₹ lakh)' = DIVIDE([Average Client Value], 100000)
+		formatString: 0.00
+		displayFolder: Portfolio Analytics
+		lineageTag: 5e9f2bf2-da15-455a-a8cd-c1c9f47747f7
+
+	measure 'Allocation %' = DIVIDE([Total Portfolio Value], CALCULATE([Total Portfolio Value], ALLSELECTED('holdings_enriched')))
+		formatString: 0.00%
+		displayFolder: Portfolio Analytics
+		lineageTag: 9eed3a95-3f44-42a4-93dd-65f0c34fc152
+
+	measure 'Largest Client Share %' = DIVIDE(MAXX(VALUES('holdings_enriched'[client_id]), CALCULATE([Total Portfolio Value])), [Total Portfolio Value])
+		formatString: 0.00%
+		displayFolder: Portfolio Analytics
+		lineageTag: efab7f04-b762-45ec-adeb-f9f5cbf8d108
+
+	measure 'Clients with Gains' = COUNTROWS(FILTER(VALUES('holdings_enriched'[client_id]), CALCULATE([Unrealized P&L]) > 0))
+		formatString: 0
+		displayFolder: Portfolio Analytics
+		lineageTag: 77edc1c8-783d-4ac8-9249-2cc7a0e7f28d
+
+	measure 'Leading Client Value (₹ lakh)' =
+			VAR ClientRank = RANKX(ALLSELECTED('holdings_enriched'[client_name]), [Total Portfolio Value], , DESC, DENSE)
+			RETURN IF(ClientRank <= 10, [Portfolio Value (₹ lakh)])
+		formatString: 0.00
+		displayFolder: Portfolio Analytics
+		lineageTag: 01352d1f-c834-4fa8-88ca-05be4d073d12
+
+	column holding_id
+		dataType: string
+		lineageTag: e1e47640-d65a-4dfa-a632-08e51dc43ce1
+		summarizeBy: none
+		sourceColumn: holding_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column client_id
+		dataType: string
+		lineageTag: e6783f60-2b0f-4f41-9dd3-539540617408
+		summarizeBy: none
+		sourceColumn: client_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column client_name
+		dataType: string
+		lineageTag: e16800ce-ae56-400d-9a14-b347394fd363
+		summarizeBy: none
+		sourceColumn: client_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column segment
+		dataType: string
+		lineageTag: 8868de68-2c75-4f4b-ba79-02535297aad8
+		summarizeBy: none
+		sourceColumn: segment
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: 77f964e4-1ecd-4cd9-b2a5-a0725623906c
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column instrument_id
+		dataType: string
+		lineageTag: ca93349f-a54c-4dc8-b2f4-37da63a95266
+		summarizeBy: none
+		sourceColumn: instrument_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column instrument_name
+		dataType: string
+		lineageTag: 6fadc8e9-7cae-4e4a-8e1f-4fb5657c7134
+		summarizeBy: none
+		sourceColumn: instrument_name
+
+		annotation SummarizationSetBy = Automatic
+
+	column asset_class
+		dataType: string
+		lineageTag: 75bcd37d-8330-43f5-bbd8-3886a76824ef
+		summarizeBy: none
+		sourceColumn: asset_class
+
+		annotation SummarizationSetBy = Automatic
+
+	column units
+		dataType: double
+		lineageTag: 75185301-2c4f-4292-be27-3e5d6e5afd43
+		summarizeBy: sum
+		sourceColumn: units
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column average_cost_inr
+		dataType: double
+		lineageTag: a1d3f7fa-e215-4212-bffd-bdee774b1bda
+		summarizeBy: sum
+		sourceColumn: average_cost_inr
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column latest_price_inr
+		dataType: double
+		lineageTag: 932691a0-3e7a-4acd-86d6-3171b5b5d8bc
+		summarizeBy: sum
+		sourceColumn: latest_price_inr
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column cost_basis_inr
+		dataType: double
+		lineageTag: 185939cd-c3f7-4942-8e4d-ccb530dff6c2
+		summarizeBy: sum
+		sourceColumn: cost_basis_inr
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column market_value_inr
+		dataType: double
+		lineageTag: 9fa9e0fe-3781-4b85-b1cf-2b030faa5e38
+		summarizeBy: sum
+		sourceColumn: market_value_inr
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column unrealized_pnl_inr
+		dataType: double
+		lineageTag: c0815206-5c75-4bc8-9a69-58fed1daa46b
+		summarizeBy: sum
+		sourceColumn: unrealized_pnl_inr
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition holdings_enriched = m
+		mode: import
+		source =
+				let
+				    Source = Csv.Document(File.Contents("C:\wealth-management-portfolio-analytics\data\holdings_enriched.csv"),[Delimiter=",", Columns=14, Encoding=1252, QuoteStyle=QuoteStyle.None]),
+				    #"Promoted Headers" = Table.PromoteHeaders(Source, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"holding_id", type text}, {"client_id", type text}, {"client_name", type text}, {"segment", type text}, {"city", type text}, {"instrument_id", type text}, {"instrument_name", type text}, {"asset_class", type text}, {"units", type number}, {"average_cost_inr", type number}, {"latest_price_inr", type number}, {"cost_basis_inr", type number}, {"market_value_inr", type number}, {"unrealized_pnl_inr", type number}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_NavigationStepName = Navigation
+
+	annotation PBI_ResultType = Table
+

@@ -1,0 +1,3292 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "holding_enriched.client_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "client_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "client name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "client_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "client nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "client title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "client label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "client tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Client": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.segment": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "segment"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "segment": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "bit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "fragment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "piece": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "portion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "slice": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.city": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "city"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "city": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "location": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "metropolis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "municipality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "town": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "metropolitan": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.total_portfolio_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Total Portfolio Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total portfolio value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Portfolio value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate portfolio value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall portfolio value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total portfolio assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "portfolio assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total portfolio worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total portfolio price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total portfolio cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total portfolio charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total portfolio rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "Portfolio value (₹)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.unrealized_PL": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Unrealized P&L"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unrealized P&L": {
+			            "Type": "Noun",
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Unrealized P&L (₹)": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.return_on_cost_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Return on Cost %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "return on cost %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "return on cost percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.617
+			          }
+			        },
+			        {
+			          "return on cost pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.599
+			          }
+			        },
+			        {
+			          "reappearance on cost %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "reoccurrence on cost %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "homecoming on cost %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "arrival on cost %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "revenue on cost %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "profit on cost %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "yield on cost %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "gain on cost %": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        },
+			        {
+			          "Return on cost": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.allocation_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Allocation %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "allocation %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "allocation percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "allocation pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "Selected value share": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "holding enriched": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "holdings_enriched": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "property enriched": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "croft enriched": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "allotment enriched": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "land enriched": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "field enriched": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "farm enriched": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "plot enriched": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "investment enriched": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "asset enriched": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "stock enriched": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.holding_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "holding_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "holding id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "holding_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "holding": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "holding identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "holding identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "holding identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "holding credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "croft": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "allotment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "land": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "field": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "farm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.client_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "client_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "client id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "client_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "client identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "client credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.instrument_id": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "instrument_id"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "instrument id": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "instrument_id": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "instrument": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "instrument identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "instrument identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "instrument identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "instrument credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gadget": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "utensil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "apparatus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "appliance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "mechanism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.instrument_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "instrument_name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "instrument name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "instrument_name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "instrument": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "instrument nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "instrument title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "instrument label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "instrument tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "gadget": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "device": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "utensil": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "apparatus": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "appliance": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "mechanism": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.asset_class": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "asset_class"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "asset class": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "asset_class": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "class": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "asset classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "asset category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "asset genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "category": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "genre": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "asset course": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "asset grade": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "asset lecture": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "asset lesson": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.unit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "units"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "module": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "element": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "entity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "component": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "constituent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "item": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "part": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.average_cost_inr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "average_cost_inr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average cost inr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average_cost_inr": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.latest_price_inr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "latest_price_inr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "latest price inr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "latest_price_inr": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.cost_basis_inr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "cost_basis_inr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cost basis inr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cost_basis_inr": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.market_value_inr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "market_value_inr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "market value inr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "market_value_inr": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.unrealized_pnl_inr": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "unrealized_pnl_inr"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unrealized pnl inr": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unrealized_pnl_inr": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.total_clients": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Total Clients"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total clients": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "clients": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall client": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.total_holdings": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Total Holdings"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total holdings": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "holdings": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate holding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall holding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total property": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total prosperity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total affluence": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total capitals": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total possession": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total riches": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "asset": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.total_cost_basis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Total Cost Basis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total cost basis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "basis": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "cost basis": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate cost basis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall cost basis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total cost origin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "cost origin": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total cost foundation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total cost base": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total cost root": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total cost source": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total cost beginning": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "total cost center": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.average_client_value": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Average Client Value"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average client value": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "client value": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average client assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "client assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average client worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average client price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average client cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average client charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "average client rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "assessment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "client worth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "client price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.portfolio_value__lakh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Portfolio Value (₹ lakh)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "portfolio value (₹ lakh)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "portfolio value": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.cost_basis__lakh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Cost Basis (₹ lakh)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cost basis (₹ lakh)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "cost basis": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.unrealized_PL__lakh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Unrealized P&L (₹ lakh)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unrealized P&L (₹ lakh)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "unrealized P&L": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.average_client_value__lakh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Average Client Value (₹ lakh)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average client value (₹ lakh)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "average client value": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.largest_client_share_": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Largest Client Share %"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "largest client share %": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "largest client share percentage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.771
+			          }
+			        },
+			        {
+			          "largest client share pct": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.748
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.clients_with_gains": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Clients with Gains"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "clients with gains": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "clients": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "customer with gain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "patron with gain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "consumer with gain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "clientele with gain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "regular with gain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "trade with gain": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "customer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "patron": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "consumer": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "clientele": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        }
+			      ]
+			    },
+			    "holding_enriched.leading_client_value__lakh": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "holdings_enriched",
+			          "ConceptualProperty": "Leading Client Value (₹ lakh)"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "leading client value (₹ lakh)": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "leading client value": {
+			            "State": "Generated",
+			            "Weight": 0.75
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "holding_enriched_in_city": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.city": {
+			          "Target": {
+			            "Entity": "holding_enriched.city"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "holding_enriched.city"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "holding_enriched.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_are_in_cities"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_client_name": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.client_name": {
+			          "Target": {
+			            "Entity": "holding_enriched.client_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.client_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_client_names"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_segment": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.segment": {
+			          "Target": {
+			            "Entity": "holding_enriched.segment"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.segment"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_segments"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_city": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.city": {
+			          "Target": {
+			            "Entity": "holding_enriched.city"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.city"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_cities"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_total_portfolio_value": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.total_portfolio_value": {
+			          "Target": {
+			            "Entity": "holding_enriched.total_portfolio_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.total_portfolio_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_total_portfolio_value"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_unrealized_PL": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.unrealized_PL": {
+			          "Target": {
+			            "Entity": "holding_enriched.unrealized_PL"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.unrealized_PL"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_unrealized_PL"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_return_on_cost_": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.return_on_cost_": {
+			          "Target": {
+			            "Entity": "holding_enriched.return_on_cost_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.return_on_cost_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_return_on_cost_"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_allocation_": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.allocation_": {
+			          "Target": {
+			            "Entity": "holding_enriched.allocation_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.allocation_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_allocation_"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_holding_id": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.holding_id": {
+			          "Target": {
+			            "Entity": "holding_enriched.holding_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.holding_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_holding_ids"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_client_id": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.client_id": {
+			          "Target": {
+			            "Entity": "holding_enriched.client_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.client_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_client_ids"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_instrument_id": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.instrument_id": {
+			          "Target": {
+			            "Entity": "holding_enriched.instrument_id"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.instrument_id"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_instrument_ids"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_instrument_name": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.instrument_name": {
+			          "Target": {
+			            "Entity": "holding_enriched.instrument_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.instrument_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_instrument_names"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_asset_class": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.asset_class": {
+			          "Target": {
+			            "Entity": "holding_enriched.asset_class"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.asset_class"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_asset_classes"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_unit": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.unit": {
+			          "Target": {
+			            "Entity": "holding_enriched.unit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.unit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_units"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_average_cost_inr": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.average_cost_inr": {
+			          "Target": {
+			            "Entity": "holding_enriched.average_cost_inr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.average_cost_inr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_average_cost_inrs"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_latest_price_inr": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.latest_price_inr": {
+			          "Target": {
+			            "Entity": "holding_enriched.latest_price_inr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.latest_price_inr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_latest_price_inrs"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_cost_basis_inr": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.cost_basis_inr": {
+			          "Target": {
+			            "Entity": "holding_enriched.cost_basis_inr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.cost_basis_inr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_cost_basis_inrs"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_market_value_inr": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.market_value_inr": {
+			          "Target": {
+			            "Entity": "holding_enriched.market_value_inr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.market_value_inr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_market_value_inrs"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_unrealized_pnl_inr": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.unrealized_pnl_inr": {
+			          "Target": {
+			            "Entity": "holding_enriched.unrealized_pnl_inr"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.unrealized_pnl_inr"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_unrealized_pnl_inrs"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_total_clients": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.total_clients": {
+			          "Target": {
+			            "Entity": "holding_enriched.total_clients"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.total_clients"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_total_clients"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_total_holdings": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.total_holdings": {
+			          "Target": {
+			            "Entity": "holding_enriched.total_holdings"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.total_holdings"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_total_holdings"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_total_cost_basis": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.total_cost_basis": {
+			          "Target": {
+			            "Entity": "holding_enriched.total_cost_basis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.total_cost_basis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_total_cost_basis"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_average_client_value": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.average_client_value": {
+			          "Target": {
+			            "Entity": "holding_enriched.average_client_value"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.average_client_value"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_average_client_value"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_portfolio_value__lakh": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.portfolio_value__lakh": {
+			          "Target": {
+			            "Entity": "holding_enriched.portfolio_value__lakh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.portfolio_value__lakh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_portfolio_value__lakh"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_cost_basis__lakh": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.cost_basis__lakh": {
+			          "Target": {
+			            "Entity": "holding_enriched.cost_basis__lakh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.cost_basis__lakh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_cost_basis__lakh"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_unrealized_PL__lakh": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.unrealized_PL__lakh": {
+			          "Target": {
+			            "Entity": "holding_enriched.unrealized_PL__lakh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.unrealized_PL__lakh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_unrealized_PL__lakh"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_average_client_value__lakh": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.average_client_value__lakh": {
+			          "Target": {
+			            "Entity": "holding_enriched.average_client_value__lakh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.average_client_value__lakh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_average_client_value__lakh"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_largest_client_share_": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.largest_client_share_": {
+			          "Target": {
+			            "Entity": "holding_enriched.largest_client_share_"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.largest_client_share_"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_largest_client_share_"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_clients_with_gains": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.clients_with_gains": {
+			          "Target": {
+			            "Entity": "holding_enriched.clients_with_gains"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.clients_with_gains"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_clients_with_gains"
+			        }
+			      ]
+			    },
+			    "holding_enriched_has_leading_client_value__lakh": {
+			      "Binding": {
+			        "ConceptualEntity": "holdings_enriched"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "holding_enriched": {
+			          "Target": {
+			            "Entity": "holding_enriched"
+			          }
+			        },
+			        "holding_enriched.leading_client_value__lakh": {
+			          "Target": {
+			            "Entity": "holding_enriched.leading_client_value__lakh"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "holding_enriched"
+			            },
+			            "Object": {
+			              "Role": "holding_enriched.leading_client_value__lakh"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "holding_enriched_have_leading_client_value__lakh"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

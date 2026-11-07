@@ -1,0 +1,45 @@
+Total Clients =
+DISTINCTCOUNT('holdings_enriched'[client_id])
+
+Total Portfolio Value =
+SUM('holdings_enriched'[market_value_inr])
+
+Total Holdings =
+COUNTROWS('holdings_enriched')
+
+Unrealized P&L =
+SUM('holdings_enriched'[unrealized_pnl_inr])
+
+Total Cost Basis =
+SUM('holdings_enriched'[cost_basis_inr])
+
+Return on Cost % =
+DIVIDE([Unrealized P&L], [Total Cost Basis])
+
+Average Client Value =
+DIVIDE([Total Portfolio Value], [Total Clients])
+
+Portfolio Value (₹ lakh) =
+DIVIDE([Total Portfolio Value], 100000)
+
+Cost Basis (₹ lakh) =
+DIVIDE([Total Cost Basis], 100000)
+
+Unrealized P&L (₹ lakh) =
+DIVIDE([Unrealized P&L], 100000)
+
+Average Client Value (₹ lakh) =
+DIVIDE([Average Client Value], 100000)
+
+Allocation % =
+DIVIDE([Total Portfolio Value], CALCULATE([Total Portfolio Value], ALLSELECTED('holdings_enriched')))
+
+Largest Client Share % =
+DIVIDE(MAXX(VALUES('holdings_enriched'[client_id]), CALCULATE([Total Portfolio Value])), [Total Portfolio Value])
+
+Clients with Gains =
+COUNTROWS(FILTER(VALUES('holdings_enriched'[client_id]), CALCULATE([Unrealized P&L]) > 0))
+
+Leading Client Value (₹ lakh) =
+VAR ClientRank = RANKX(ALLSELECTED('holdings_enriched'[client_name]), [Total Portfolio Value], , DESC, DENSE)
+RETURN IF(ClientRank <= 10, [Portfolio Value (₹ lakh)])

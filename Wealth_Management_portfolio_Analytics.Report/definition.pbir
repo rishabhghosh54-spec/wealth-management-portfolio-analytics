@@ -1,0 +1,8 @@
+{
+  "version": "4.0",
+  "datasetReference": {
+    "byPath": {
+      "path": "../Wealth_Management_portfolio_Analytics.SemanticModel"
+    }
+  }
+}

@@ -1,0 +1,13 @@
+instrument_id,instrument_name,asset_class,reference_price_inr
+EQ01,Equity Alpha,Equity,152.5
+EQ02,Equity Beta,Equity,89.1
+EQ03,Equity Gamma,Equity,205.4
+BD01,Bond Short Duration,Bonds,101.8
+BD02,Bond Long Duration,Bonds,97.6
+MF01,Diversified Fund A,Mutual Funds,55.3
+MF02,Diversified Fund B,Mutual Funds,73.8
+ETF01,Index ETF A,ETFs,122.6
+ETF02,Index ETF B,ETFs,194.25
+GD01,Gold Fund,Gold,63.4
+CS01,Cash Equivalent,Cash,100.0
+MF03,Balanced Fund,Mutual Funds,84.5

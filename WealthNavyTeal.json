@@ -1,0 +1,39 @@
+{
+  "name": "Wealth Navy Teal",
+  "dataColors": [
+    "#20C4B7",
+    "#619FFA",
+    "#D9B978",
+    "#8C88E8",
+    "#5DBCCF",
+    "#7F9CB9"
+  ],
+  "background": "#0B1426",
+  "foreground": "#F4F7FB",
+  "tableAccent": "#20C4B7",
+  "good": "#20C4B7",
+  "neutral": "#D9B978",
+  "bad": "#F1808C",
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 11,
+      "color": "#A9BAD0"
+    },
+    "title": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 13,
+      "color": "#F4F7FB"
+    },
+    "callout": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 32,
+      "color": "#20C4B7"
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 16,
+      "color": "#F4F7FB"
+    }
+  }
+}

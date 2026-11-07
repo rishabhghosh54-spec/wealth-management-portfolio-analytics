@@ -1,0 +1,8 @@
+**/.pbi/
+*.abf
+*.pbix
+*.sqlite
+__pycache__/
+.ipynb_checkpoints/
+reports/
+.DS_Store
